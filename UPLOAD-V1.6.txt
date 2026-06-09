@@ -1,0 +1,8 @@
+PS3 JAILBREAK V1.6
+
+Extract this ZIP.
+Upload everything inside the extracted folder to the repository root.
+Allow GitHub to replace existing files.
+
+This is a small update and does not include HEN.pkg files.
+Do not delete your installer package folders yet.

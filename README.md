@@ -1,25 +1,19 @@
-# PS3 Jailbreak v1.4
+# PS3 Jailbreak v1.6
 
-Clean self-hosted PS3HEN 3.5.0 website for firmware 4.91, 4.92 and 4.93.
+Test build using the official PS3Xploit Standard Installer.
 
-## Main pages
+## Routing
 
-- `index.html` — desktop/mobile page
-- `ps3.html` — PlayStation 3 browser page
-- `firmware/4.91.html`
-- `firmware/4.92.html`
-- `firmware/4.93.html`
-- `installer/alternate.html` — local PS3HEN 3.5.0 installer
-- `ps3/browser-test.html`
+- Firmware 4.91 → official PS3Xploit Standard Installer
+- Firmware 4.92 → official PS3Xploit Standard Installer
+- Firmware 4.93 → official PS3Xploit Standard Installer
 
-## Public URL
+The firmware pages still detect the PS3 version automatically.
 
-`https://reprook.github.io/ps3-jailbreak/`
+## Important
 
-## Version 1.4
+The installer is opened from:
 
-- Firmware 4.92 now uses `installer/492alt.html` as the primary installer.
-- Firmware 4.93 now uses `installer/493alt.html` as the primary installer.
-- Firmware 4.91 keeps `installer/alternate.html`.
-- The generic installer remains available as a fallback on 4.92 and 4.93.
-- Added a clean browser retry checklist.
+`http://ps3xploit.me/hen/installer/index.html`
+
+This build does not use the alternate installer.
