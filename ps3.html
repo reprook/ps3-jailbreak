@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PS3 Jailbreak</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/ps3.css">
+  <script type="text/javascript" src="assets/js/ps3.js"></script>
+</head>
+<body onload="initJailbreakHome();">
+  <div class="wrap">
+    <div class="topbar">
+      <div class="logo">
+        <div class="logo-box">JB</div>
+        <div class="logo-text">
+          <strong>PS3 Jailbreak</strong>
+          <span>Local PS3HEN 3.5.0 service center</span>
+        </div>
+      </div>
+      <div class="top-links">
+        <a href="#firmwares">FIRMWARES</a>
+        <a href="ps3/browser-test.html">BROWSER TEST</a>
+        <a href="ps3/troubleshooting.html">HELP</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="hero flash-hero">
+      <div class="hero-left">
+        <span class="tag">SELF-HOSTED · SHOP WORKFLOW</span>
+        <h1>Detect firmware.<br><span>Install HEN 3.5.0.</span></h1>
+        <p>
+          The PS3 firmware is detected automatically. Use the matching prepared HFW USB,
+          then launch the installer hosted on your own GitHub Pages site.
+        </p>
+        <a class="big-button" href="#firmwares">OPEN FIRMWARE</a>
+        <a class="big-button dark-button" href="ps3/browser-test.html">RUN BROWSER TEST</a>
+      </div>
+
+      <div class="hero-right">
+        <div class="console">
+          <div class="console-screen">
+            <strong>HEN</strong>
+            <span>VERSION 3.5.0</span>
+          </div>
+          <div class="console-status">LOCAL INSTALLER <b>READY</b></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="section">
+      <div id="autoDetectPanel" class="auto-detect-panel detect-neutral">
+        <div class="detect-icon">AUTO</div>
+        <div class="detect-copy">
+          <h2 id="autoDetectTitle">Checking this console...</h2>
+          <p id="autoDetectText">Reading the PS3 browser identity.</p>
+        </div>
+        <a id="autoDetectAction" class="detect-action" href="#" style="display:none">OPEN CENTER</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="section" id="firmwares">
+      <div class="version-heading">
+        <div>
+          <span class="section-label">LOCAL PS3HEN 3.5.0</span>
+          <h2 class="section-title">Select the console version</h2>
+          <p class="section-sub">The correct card is highlighted automatically on PS3.</p>
+        </div>
+        <div class="reviewed">INSTALLER<br><b>SELF-HOSTED</b></div>
+        <div class="clear"></div>
+      </div>
+
+      <table class="version-grid">
+        <tr>
+          <td id="fwCard493" class="version-card latest-card">
+            <div class="version-top">
+              <span class="version-number">4.93</span>
+              <span class="version-state latest-state">LATEST</span>
+            </div>
+            <h3>PS3HEN 3.5.0</h3>
+            <p>Use the matching prepared HFW 4.93 USB before starting HEN.</p>
+            <div class="requirement">USB HFW 4.93 → LOCAL HEN 3.5.0</div>
+            <a class="version-button" href="firmware/4.93.html">OPEN 4.93 CENTER &gt;</a>
+          </td>
+
+          <td id="fwCard492" class="version-card">
+            <div class="version-top">
+              <span class="version-number">4.92</span>
+              <span class="version-state supported-state">SUPPORTED</span>
+            </div>
+            <h3>PS3HEN 3.5.0</h3>
+            <p>Use the matching prepared HFW 4.92 USB before starting HEN.</p>
+            <div class="requirement">USB HFW 4.92 → LOCAL HEN 3.5.0</div>
+            <a class="version-button" href="firmware/4.92.html">OPEN 4.92 CENTER &gt;</a>
+          </td>
+
+          <td id="fwCard491" class="version-card">
+            <div class="version-top">
+              <span class="version-number">4.91</span>
+              <span class="version-state supported-state">SUPPORTED</span>
+            </div>
+            <h3>PS3HEN 3.5.0</h3>
+            <p>Use the matching prepared HFW 4.91 USB before starting HEN.</p>
+            <div class="requirement">USB HFW 4.91 → LOCAL HEN 3.5.0</div>
+            <a class="version-button" href="firmware/4.91.html">OPEN 4.91 CENTER &gt;</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Clean shop workflow</h2>
+      <table class="workflow-table">
+        <tr>
+          <td><span class="step-number">1</span><b>Detect version</b><br><small>The PS3 browser reads the firmware automatically.</small></td>
+          <td><span class="step-number">2</span><b>Install HFW USB</b><br><small>Use the matching prepared FAT32 USB.</small></td>
+          <td><span class="step-number">3</span><b>Install HEN 3.5.0</b><br><small>The installer and PKG are hosted on this site.</small></td>
+          <td><span class="step-number">4</span><b>Add MultiMAN</b><br><small>The package slot is ready for the next update.</small></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="notice warning">
+        If matching HFW is missing, the local HEN installer stops automatically and displays the HFW warning.
+      </div>
+    </div>
+
+    <div class="footer">
+      PS3 Jailbreak v1.3 · Local PS3HEN 3.5.0 ·
+      <a href="index.html?desktop=1">Desktop mode</a>
+    </div>
+  </div>
+</body>
+</html>

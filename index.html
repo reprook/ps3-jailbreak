@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    (function(){
+      var ua=navigator.userAgent||"";
+      if(ua.indexOf("PLAYSTATION 3")!==-1 && location.search.indexOf("desktop=1")===-1){
+        location.replace("ps3.html");
+      }
+    }());
+  </script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="PS3 Jailbreak for firmware 4.91, 4.92 and 4.93.">
+  <title>PS3 Jailbreak</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="./">
+      <span class="brand-mark">JB</span>
+      <span><strong>PS3 Jailbreak</strong><small>4.91 · 4.92 · 4.93</small></span>
+    </a>
+    <nav class="nav">
+      <a href="#versions">Firmwares</a>
+      <a href="ps3.html">PS3 Mode</a>
+      <a href="ps3/browser-test.html">Browser Test</a>
+    </nav>
+    <button class="menu-button" id="menuButton" type="button">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> Self-hosted PS3HEN 3.5.0</div>
+        <h1>PS3 HEN<br><em>Jailbreak Center.</em></h1>
+        <p>
+          Select the exact firmware, install matching HFW from USB and open the PS3HEN 3.5.0 installer hosted on your own site.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#versions">Choose firmware</a>
+          <a class="button button-secondary" href="ps3.html">Open PS3 mode</a>
+        </div>
+        <div class="hero-points">
+          <span>✓ 4.93 latest</span>
+          <span>✓ 4.92 supported</span>
+          <span>✓ 4.91 supported</span>
+        </div>
+      </div>
+
+      <div class="console-card">
+        <div class="console-top"><span>PS3 SERVICE HUB</span><span class="online-dot"></span></div>
+        <div class="console-screen">
+          <div class="screen-ring ring-one"></div>
+          <div class="screen-ring ring-two"></div>
+          <div class="screen-logo">HEN</div>
+          <div class="screen-text">JAILBREAK CENTER</div>
+        </div>
+        <div class="console-footer"><span>LATEST</span><strong>4.93</strong></div>
+      </div>
+    </section>
+
+    <section class="section compatibility" id="versions">
+      <div class="section-heading">
+        <div><span class="section-kicker">Supported versions</span><h2>Select firmware</h2></div>
+        <p>All three routes require matching HFW before launching PS3HEN.</p>
+      </div>
+
+      <div class="tool-grid">
+        <article class="tool-card featured">
+          <div class="tool-icon">493</div><span class="status status-ready">Latest</span>
+          <h3>Firmware 4.93</h3>
+          <p>Current Sony firmware. PS3HEN 3.5.0 supports HFW 4.93.</p>
+          <a href="firmware/4.93.html">Open 4.93 center <span>→</span></a>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon">492</div><span class="status status-guide">Supported</span>
+          <h3>Firmware 4.92</h3>
+          <p>Maintained installer route plus your local legacy 4.92 fallback.</p>
+          <a href="firmware/4.92.html">Open 4.92 center <span>→</span></a>
+        </article>
+        <article class="tool-card">
+          <div class="tool-icon">491</div><span class="status status-guide">Supported</span>
+          <h3>Firmware 4.91</h3>
+          <p>Matching HFW 4.91 is required before HEN installation.</p>
+          <a href="firmware/4.91.html">Open 4.91 center <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section help-panel">
+      <div>
+        <span class="section-kicker">Important</span>
+        <h2>OFW is not HFW</h2>
+        <p>
+          The launch page stays locked when OFW is selected. Install the matching
+          HFW first, then return and confirm it before opening the installer.
+        </p>
+      </div>
+      <div class="help-meta">
+        <div><small>Latest firmware</small><strong>4.93</strong></div>
+        <div><small>Hosted PS3HEN version</small><strong>3.5.0</strong></div>
+        <div><small>Reviewed</small><strong>09 June 2026</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>PS3 Jailbreak</strong><span>Self-hosted service center.</span></div>
+    <span id="year"></span>
+  </footer>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
