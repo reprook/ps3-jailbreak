@@ -1,11 +1,13 @@
-# PS3 Jailbreak v1.9
+# PS3 Jailbreak v2.0
 
-PS3 browser logo compatibility fix.
+## Auto HEN 4.93 route
 
-## Changes
+The 4.93 card now opens:
 
-- Converted webMAN logo from WebP to PNG.
-- Converted multiMAN logo from WebP to PNG.
-- Updated `ps3.html` to use PNG images.
+`https://reprook.github.io/ps3-jailbreak/493/`
 
-The old PS3 browser can now display both logos.
+That local route immediately forwards the PS3 browser to the tested AutoHEN 4.93 page:
+
+`https://nikolaevich23.github.io/493/`
+
+The 4.91 and 4.92 routes are unchanged.
