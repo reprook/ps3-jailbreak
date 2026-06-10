@@ -1,13 +1,11 @@
-# PS3 Jailbreak v1.8
+# PS3 Jailbreak v1.9
 
-Small visual update.
+PS3 browser logo compatibility fix.
 
 ## Changes
 
-- Added uploaded multiMAN logo.
-- Replaced the `MM` placeholder with the real image.
-- webMAN and multiMAN cards now both use image logos.
+- Converted webMAN logo from WebP to PNG.
+- Converted multiMAN logo from WebP to PNG.
+- Updated `ps3.html` to use PNG images.
 
-## Added file
-
-- `assets/img/multiman-logo.webp`
+The old PS3 browser can now display both logos.
